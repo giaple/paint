@@ -1,0 +1,52 @@
+{
+  "name": "paint",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 8080",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0 -p 8080",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.7.12",
+    "@emotion/react": "^11.11.0",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.3",
+    "@mui/x-date-pickers": "^6.3.1",
+    "@types/node": "18.15.13",
+    "@types/react": "18.0.38",
+    "@types/react-dom": "18.0.11",
+    "autoprefixer": "10.4.14",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.7",
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1",
+    "graphql": "^16.6.0",
+    "i18next": "^22.4.15",
+    "jquery": "^3.6.4",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "next": "13.3.1",
+    "next-i18next": "^13.2.2",
+    "postcss": "8.4.23",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "^12.2.0",
+    "react-slick": "^0.29.0",
+    "recoil": "^0.7.7",
+    "recoil-persist": "^4.2.0",
+    "sass": "^1.62.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.10",
+    "tailwindcss": "3.3.1",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "@types/react-slick": "^0.23.10",
+    "@types/styled-components": "^5.1.26"
+  }
+}
